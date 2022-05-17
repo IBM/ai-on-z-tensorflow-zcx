@@ -17,6 +17,7 @@ The intent is to quickly try this project out without installing additional soft
    - [IBM Container Image Repository](https://ibm.github.io/ibm-z-oss-hub/main/main.html)
    - [Source](https://github.com/linux-on-ibm-z/docs/wiki/Building-TensorFlow-Serving)
 - Details on the TFServing API can be found here: https://www.tensorflow.org/tfx/serving/api_rest
+  - This example assumes a TensorFlow Serving V2.x REST API and has been tested up to TensorFlow 2.7
 
 - To deploy the example model, you can follow this procedure:
    - SFTP the TensorFlow saved model to zCX. This should be the model folder and all subfolders.
